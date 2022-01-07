@@ -1,0 +1,76 @@
+.form-Group {
+  margin-bottom: 1rem;
+}
+
+#btnsearch {
+  color: cornsilk;
+  background-color: blue;
+  outline: none;
+  min-height: 38px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+#txtMovieName {
+  width: 760px;
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+#dv_searchable {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.movie {
+  margin-bottom: 50px;
+}
+
+.section {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.section img {
+  width: 300px;
+}
+
+img:hover {
+  margin-left: 0 40px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.content {
+  border: 1px solid lightgray;
+  display: none;
+  padding: 20px;
+}
+
+#content_close {
+  cursor: pointer;
+}
+
+content div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+.content_display {
+  display: block;
+}
